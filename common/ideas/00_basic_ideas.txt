@@ -330,6 +330,7 @@ innovativeness_ideas = {
 		monthly_splendor = 1
 	}
 	expanded_policies = {
+		possible_policy = 2
 		free_policy = 1
 	}
 
@@ -1115,11 +1116,12 @@ maritime_ideas = {
 	bonus = {
 		sea_repair = yes
 		movement_speed_in_fleet_modifier = 1 
+		max_flagships = 2
 	}
 
 	merchant_traditions = {
-		naval_tradition_from_trade = 1.0
-		trade_range_modifier = 0.25
+		naval_tradition_from_trade = 1.5
+		trade_range_modifier = 0.4
 	}
 	merchant_marine = {
 		global_sailors_modifier = 0.5
@@ -1137,7 +1139,7 @@ maritime_ideas = {
 		global_ship_cost = -0.1
 	}
 	sea_hawks = {
-		global_naval_engagement_modifier = 0.1
+		global_naval_engagement_modifier = 0.2
 		admiral_cost = -0.25
 	}
 	naval_fighting_instruction = {

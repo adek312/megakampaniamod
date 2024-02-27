@@ -2158,7 +2158,7 @@ ramparts = {
 	modifier = {
 		local_hostile_attrition = 1
 		local_defensiveness = 0.15
-		local_defender_dice_roll_bonus = 1
+		own_territory_dice_roll_bonus = 2
 	}
 	onmap = no
 	show_separate = yes # Means as a manufactory it will be shown according to the old way

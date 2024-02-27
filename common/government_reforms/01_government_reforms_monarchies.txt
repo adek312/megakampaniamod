@@ -2275,11 +2275,13 @@ prussian_monarchy = {
 	modifiers = {
 		war_exhaustion = -0.02
 		global_unrest = -2
-		global_autonomy = -0.075
-		max_absolutism = 10
+		global_autonomy = -0.75
+		max_absolutism = 20
 		monarch_military_power = 3
 		nobles_loyalty_modifier = 0.1
-		governing_capacity_modifier = -0.5
+		governing_capacity_modifier = 0.2
+		fire_damage = 0.15	
+		monthly_militarized_society = 0.1	
 	}
 
 	conditional = {
